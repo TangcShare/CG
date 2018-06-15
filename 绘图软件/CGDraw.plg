@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CGDraw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD17D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CGDraw.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD17D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD17E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CGDraw.pdb" /debug /machine:I386 /out:"Debug/CGDraw.exe" /pdbtype:sept 
+".\Debug\CGDraw.obj"
+".\Debug\CGDrawDoc.obj"
+".\Debug\CGDrawView.obj"
+".\Debug\CMDlg.obj"
+".\Debug\CMDlg1.obj"
+".\Debug\CMDlg2.obj"
+".\Debug\CMDlg3.obj"
+".\Debug\CMDlg4.obj"
+".\Debug\CMDlg5.obj"
+".\Debug\CMDlg6.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CGDraw.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD17E.tmp"
+<h3>Output Window</h3>
+Compiling...
+CGDrawView.cpp
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(167) : warning C4518: 'double ' : storage-class or type specifier(s) unexpected here; ignored
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(167) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(167) : warning C4518: 'double ' : storage-class or type specifier(s) unexpected here; ignored
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(167) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(167) : warning C4518: 'double ' : storage-class or type specifier(s) unexpected here; ignored
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(167) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(368) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(378) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(887) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(907) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(926) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(946) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1195) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1196) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1198) : warning C4244: '/=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1199) : warning C4244: '/=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1249) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1250) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1254) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1255) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1323) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1324) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\three.js项目\CG\CGDraw2 - 1 - 4 - 副本\CGDrawView.cpp(1325) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Linking...
+LINK : warning LNK4076: invalid incremental status file "Debug/CGDraw.ilk"; linking nonincrementally
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD99A.tmp" with contents
+[
+/nologo /o"Debug/CGDraw.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\CGDraw.sbr"
+".\Debug\CGDrawDoc.sbr"
+".\Debug\CGDrawView.sbr"
+".\Debug\CMDlg.sbr"
+".\Debug\CMDlg1.sbr"
+".\Debug\CMDlg2.sbr"
+".\Debug\CMDlg3.sbr"
+".\Debug\CMDlg4.sbr"
+".\Debug\CMDlg5.sbr"
+".\Debug\CMDlg6.sbr"
+".\Debug\MainFrm.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD99A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CGDraw.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
